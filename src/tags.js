@@ -1,7 +1,7 @@
-const Head = require('next/head');
-const Image = require('next/image');
-const Link = require('next/link');
-const Script = require('next/script');
+const Head = require('next/head').default;
+const Image = require('next/image').default;
+const Link = require('next/link').default;
+const Script = require('next/script').default;
 
 exports.comment = {
   description: 'Use to comment the content itself',
